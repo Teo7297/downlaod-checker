@@ -20,6 +20,7 @@ def main():
         count = 0
     ENDINGS[sys.argv[1]]()
     
+    
 def print_err():
     print('Error insert a valid parameter\n  -a : Send an alert message when the download is complete\n  -off : Turns off the pc when the download is complete (waits a couple minutes to complete the installation)')
 
@@ -28,3 +29,4 @@ if __name__ == "__main__":
         print_err()
     else:
         main()
+        print("running..")
